@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40645D91D94BE4300CE5624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40645D81D94BE4300CE5624 /* main.m */; };
+		F40645DC1D94BE4300CE5624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40645DB1D94BE4300CE5624 /* AppDelegate.m */; };
+		F40645E21D94BE4300CE5624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40645E01D94BE4300CE5624 /* Main.storyboard */; };
+		F40645E41D94BE4300CE5624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40645E31D94BE4300CE5624 /* Assets.xcassets */; };
+		F40645E71D94BE4300CE5624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40645E51D94BE4300CE5624 /* LaunchScreen.storyboard */; };
+		F40645F01D94BEC600CE5624 /* LeakManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F40645EF1D94BEC600CE5624 /* LeakManager.m */; };
+		F40645F31D94BFB300CE5624 /* UITableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F40645F21D94BFB300CE5624 /* UITableVC.m */; };
+		F40645F61D94D49F00CE5624 /* TestLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40645F51D94D49F00CE5624 /* TestLeakViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F40645D41D94BE4300CE5624 /* leakManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leakManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40645D81D94BE4300CE5624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40645DA1D94BE4300CE5624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F40645DB1D94BE4300CE5624 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F40645E11D94BE4300CE5624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40645E31D94BE4300CE5624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40645E61D94BE4300CE5624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40645E81D94BE4300CE5624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40645EE1D94BEC600CE5624 /* LeakManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeakManager.h; sourceTree = "<group>"; };
+		F40645EF1D94BEC600CE5624 /* LeakManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeakManager.m; sourceTree = "<group>"; };
+		F40645F11D94BFB300CE5624 /* UITableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableVC.h; sourceTree = "<group>"; };
+		F40645F21D94BFB300CE5624 /* UITableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableVC.m; sourceTree = "<group>"; };
+		F40645F41D94D49F00CE5624 /* TestLeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLeakViewController.h; sourceTree = "<group>"; };
+		F40645F51D94D49F00CE5624 /* TestLeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLeakViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40645D11D94BE4300CE5624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40645CB1D94BE4300CE5624 = {
+			isa = PBXGroup;
+			children = (
+				F40645D61D94BE4300CE5624 /* leakManager */,
+				F40645D51D94BE4300CE5624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40645D51D94BE4300CE5624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40645D41D94BE4300CE5624 /* leakManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40645D61D94BE4300CE5624 /* leakManager */ = {
+			isa = PBXGroup;
+			children = (
+				F40645EE1D94BEC600CE5624 /* LeakManager.h */,
+				F40645EF1D94BEC600CE5624 /* LeakManager.m */,
+				F40645DA1D94BE4300CE5624 /* AppDelegate.h */,
+				F40645DB1D94BE4300CE5624 /* AppDelegate.m */,
+				F40645E01D94BE4300CE5624 /* Main.storyboard */,
+				F40645E31D94BE4300CE5624 /* Assets.xcassets */,
+				F40645E51D94BE4300CE5624 /* LaunchScreen.storyboard */,
+				F40645E81D94BE4300CE5624 /* Info.plist */,
+				F40645D71D94BE4300CE5624 /* Supporting Files */,
+				F40645F11D94BFB300CE5624 /* UITableVC.h */,
+				F40645F21D94BFB300CE5624 /* UITableVC.m */,
+				F40645F41D94D49F00CE5624 /* TestLeakViewController.h */,
+				F40645F51D94D49F00CE5624 /* TestLeakViewController.m */,
+			);
+			path = leakManager;
+			sourceTree = "<group>";
+		};
+		F40645D71D94BE4300CE5624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40645D81D94BE4300CE5624 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40645D31D94BE4300CE5624 /* leakManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40645EB1D94BE4300CE5624 /* Build configuration list for PBXNativeTarget "leakManager" */;
+			buildPhases = (
+				F40645D01D94BE4300CE5624 /* Sources */,
+				F40645D11D94BE4300CE5624 /* Frameworks */,
+				F40645D21D94BE4300CE5624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leakManager;
+			productName = leakManager;
+			productReference = F40645D41D94BE4300CE5624 /* leakManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40645CC1D94BE4300CE5624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = horace;
+				TargetAttributes = {
+					F40645D31D94BE4300CE5624 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F40645CF1D94BE4300CE5624 /* Build configuration list for PBXProject "leakManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40645CB1D94BE4300CE5624;
+			productRefGroup = F40645D51D94BE4300CE5624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40645D31D94BE4300CE5624 /* leakManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40645D21D94BE4300CE5624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40645E71D94BE4300CE5624 /* LaunchScreen.storyboard in Resources */,
+				F40645E41D94BE4300CE5624 /* Assets.xcassets in Resources */,
+				F40645E21D94BE4300CE5624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40645D01D94BE4300CE5624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40645F01D94BEC600CE5624 /* LeakManager.m in Sources */,
+				F40645F31D94BFB300CE5624 /* UITableVC.m in Sources */,
+				F40645DC1D94BE4300CE5624 /* AppDelegate.m in Sources */,
+				F40645D91D94BE4300CE5624 /* main.m in Sources */,
+				F40645F61D94D49F00CE5624 /* TestLeakViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F40645E01D94BE4300CE5624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40645E11D94BE4300CE5624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40645E51D94BE4300CE5624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40645E61D94BE4300CE5624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40645E91D94BE4300CE5624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F40645EA1D94BE4300CE5624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40645EC1D94BE4300CE5624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leakManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leakManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F40645ED1D94BE4300CE5624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leakManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leakManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40645CF1D94BE4300CE5624 /* Build configuration list for PBXProject "leakManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40645E91D94BE4300CE5624 /* Debug */,
+				F40645EA1D94BE4300CE5624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40645EB1D94BE4300CE5624 /* Build configuration list for PBXNativeTarget "leakManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40645EC1D94BE4300CE5624 /* Debug */,
+				F40645ED1D94BE4300CE5624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40645CC1D94BE4300CE5624 /* Project object */;
+}
