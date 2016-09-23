@@ -1,0 +1,3 @@
+# LeakManager
+检查ViewController的泄露，如果一个viewController被pop或dissmiss后还没有被析构，会自动报错提示
+检查viewcontroller的内存泄露问题，思路很简单，大家可以自己代码
